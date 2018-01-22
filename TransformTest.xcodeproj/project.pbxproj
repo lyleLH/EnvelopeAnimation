@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5E0F7742011E4E400324967 /* 0001.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E0F7722011E4E400324967 /* 0001.png */; };
+		C5E0F7752011E4E400324967 /* 0002.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E0F7732011E4E400324967 /* 0002.png */; };
+		C5E0F77B2011F0F600324967 /* 0003.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E0F77A2011F0F600324967 /* 0003.png */; };
 		C5F4E0852011BF70000400AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F4E0842011BF70000400AC /* AppDelegate.m */; };
 		C5F4E0882011BF70000400AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F4E0872011BF70000400AC /* ViewController.m */; };
 		C5F4E08B2011BF70000400AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5F4E0892011BF70000400AC /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5E0F7722011E4E400324967 /* 0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0001.png; sourceTree = "<group>"; };
+		C5E0F7732011E4E400324967 /* 0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0002.png; sourceTree = "<group>"; };
+		C5E0F77A2011F0F600324967 /* 0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0003.png; sourceTree = "<group>"; };
 		C5F4E0802011BF70000400AC /* TransformTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransformTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5F4E0832011BF70000400AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5F4E0842011BF70000400AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 				C5F4E0862011BF70000400AC /* ViewController.h */,
 				C5F4E0872011BF70000400AC /* ViewController.m */,
 				C5F4E0892011BF70000400AC /* Main.storyboard */,
+				C5E0F77A2011F0F600324967 /* 0003.png */,
+				C5E0F7722011E4E400324967 /* 0001.png */,
+				C5E0F7732011E4E400324967 /* 0002.png */,
 				C5F4E08C2011BF70000400AC /* Assets.xcassets */,
 				C5F4E08E2011BF70000400AC /* LaunchScreen.storyboard */,
 				C5F4E0912011BF70000400AC /* Info.plist */,
@@ -131,7 +140,10 @@
 			files = (
 				C5F4E0902011BF70000400AC /* LaunchScreen.storyboard in Resources */,
 				C5F4E08D2011BF70000400AC /* Assets.xcassets in Resources */,
+				C5E0F7752011E4E400324967 /* 0002.png in Resources */,
+				C5E0F7742011E4E400324967 /* 0001.png in Resources */,
 				C5F4E08B2011BF70000400AC /* Main.storyboard in Resources */,
+				C5E0F77B2011F0F600324967 /* 0003.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5C1325E201979A400F336C3 /* MTTHalfCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C1325D201979A400F336C3 /* MTTHalfCoverView.m */; };
 		C5E0F7742011E4E400324967 /* 0001.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E0F7722011E4E400324967 /* 0001.png */; };
 		C5E0F7752011E4E400324967 /* 0002.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E0F7732011E4E400324967 /* 0002.png */; };
 		C5E0F77B2011F0F600324967 /* 0003.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E0F77A2011F0F600324967 /* 0003.png */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C5C1325C201979A400F336C3 /* MTTHalfCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTHalfCoverView.h; sourceTree = "<group>"; };
+		C5C1325D201979A400F336C3 /* MTTHalfCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTHalfCoverView.m; sourceTree = "<group>"; };
 		C5E0F7722011E4E400324967 /* 0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0001.png; sourceTree = "<group>"; };
 		C5E0F7732011E4E400324967 /* 0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0002.png; sourceTree = "<group>"; };
 		C5E0F77A2011F0F600324967 /* 0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0003.png; sourceTree = "<group>"; };
@@ -68,6 +71,8 @@
 				C5F4E0842011BF70000400AC /* AppDelegate.m */,
 				C5F4E0862011BF70000400AC /* ViewController.h */,
 				C5F4E0872011BF70000400AC /* ViewController.m */,
+				C5C1325C201979A400F336C3 /* MTTHalfCoverView.h */,
+				C5C1325D201979A400F336C3 /* MTTHalfCoverView.m */,
 				C5F4E0892011BF70000400AC /* Main.storyboard */,
 				C5E0F77A2011F0F600324967 /* 0003.png */,
 				C5E0F7722011E4E400324967 /* 0001.png */,
@@ -157,6 +162,7 @@
 				C5F4E0882011BF70000400AC /* ViewController.m in Sources */,
 				C5F4E0932011BF70000400AC /* main.m in Sources */,
 				C5F4E0852011BF70000400AC /* AppDelegate.m in Sources */,
+				C5C1325E201979A400F336C3 /* MTTHalfCoverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

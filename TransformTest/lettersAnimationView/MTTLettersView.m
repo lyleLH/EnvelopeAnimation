@@ -169,7 +169,8 @@
 
 - (UIImageView *)coverView {
     if(!_coverView){
-        _coverView = [[UIImageView alloc] initWithFrame:self.bottomView.frame];
+        
+        _coverView = [[UIImageView alloc] initWithFrame:CGRectMake(50, CGRectGetMinY(self.bottomView.frame), CGRectGetWidth(self.bottomView.frame)-50, CGRectGetHeight(self.bottomView.frame))];
         _coverView.image = [UIImage imageNamed:@"0003.png"];
     }
     return _coverView;

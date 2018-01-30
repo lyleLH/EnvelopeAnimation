@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C5C1325E201979A400F336C3 /* MTTHalfCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C1325D201979A400F336C3 /* MTTHalfCoverView.m */; };
+		C5350E9020201A9F00915039 /* MTTLettersView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5350E8C20201A9F00915039 /* MTTLettersView.m */; };
+		C5350E9120201A9F00915039 /* MTTHalfCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5350E8D20201A9F00915039 /* MTTHalfCoverView.m */; };
+		C5350E9320201D4900915039 /* 0004.png in Resources */ = {isa = PBXBuildFile; fileRef = C5350E9220201D4900915039 /* 0004.png */; };
+		C5DCF66A201F1948000E365D /* 0001Back.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DCF669201F1948000E365D /* 0001Back.png */; };
+		C5DCF66C201F19B7000E365D /* 0002Back.png in Resources */ = {isa = PBXBuildFile; fileRef = C5DCF66B201F19B7000E365D /* 0002Back.png */; };
 		C5E0F7742011E4E400324967 /* 0001.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E0F7722011E4E400324967 /* 0001.png */; };
 		C5E0F7752011E4E400324967 /* 0002.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E0F7732011E4E400324967 /* 0002.png */; };
 		C5E0F77B2011F0F600324967 /* 0003.png in Resources */ = {isa = PBXBuildFile; fileRef = C5E0F77A2011F0F600324967 /* 0003.png */; };
@@ -20,8 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C5C1325C201979A400F336C3 /* MTTHalfCoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTHalfCoverView.h; sourceTree = "<group>"; };
-		C5C1325D201979A400F336C3 /* MTTHalfCoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTHalfCoverView.m; sourceTree = "<group>"; };
+		C5350E8C20201A9F00915039 /* MTTLettersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTLettersView.m; sourceTree = "<group>"; };
+		C5350E8D20201A9F00915039 /* MTTHalfCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTHalfCoverView.m; sourceTree = "<group>"; };
+		C5350E8E20201A9F00915039 /* MTTLettersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTLettersView.h; sourceTree = "<group>"; };
+		C5350E8F20201A9F00915039 /* MTTHalfCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTHalfCoverView.h; sourceTree = "<group>"; };
+		C5350E9220201D4900915039 /* 0004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0004.png; sourceTree = "<group>"; };
+		C5DCF669201F1948000E365D /* 0001Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0001Back.png; sourceTree = "<group>"; };
+		C5DCF66B201F19B7000E365D /* 0002Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0002Back.png; sourceTree = "<group>"; };
 		C5E0F7722011E4E400324967 /* 0001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0001.png; sourceTree = "<group>"; };
 		C5E0F7732011E4E400324967 /* 0002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0002.png; sourceTree = "<group>"; };
 		C5E0F77A2011F0F600324967 /* 0003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0003.png; sourceTree = "<group>"; };
@@ -48,6 +57,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5350E8B20201A9F00915039 /* lettersAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				C5350E8E20201A9F00915039 /* MTTLettersView.h */,
+				C5350E8C20201A9F00915039 /* MTTLettersView.m */,
+				C5350E8F20201A9F00915039 /* MTTHalfCoverView.h */,
+				C5350E8D20201A9F00915039 /* MTTHalfCoverView.m */,
+			);
+			path = lettersAnimationView;
+			sourceTree = "<group>";
+		};
 		C5F4E0772011BF70000400AC = {
 			isa = PBXGroup;
 			children = (
@@ -67,16 +87,18 @@
 		C5F4E0822011BF70000400AC /* TransformTest */ = {
 			isa = PBXGroup;
 			children = (
+				C5350E8B20201A9F00915039 /* lettersAnimationView */,
 				C5F4E0832011BF70000400AC /* AppDelegate.h */,
 				C5F4E0842011BF70000400AC /* AppDelegate.m */,
 				C5F4E0862011BF70000400AC /* ViewController.h */,
 				C5F4E0872011BF70000400AC /* ViewController.m */,
-				C5C1325C201979A400F336C3 /* MTTHalfCoverView.h */,
-				C5C1325D201979A400F336C3 /* MTTHalfCoverView.m */,
 				C5F4E0892011BF70000400AC /* Main.storyboard */,
 				C5E0F77A2011F0F600324967 /* 0003.png */,
 				C5E0F7722011E4E400324967 /* 0001.png */,
 				C5E0F7732011E4E400324967 /* 0002.png */,
+				C5DCF669201F1948000E365D /* 0001Back.png */,
+				C5DCF66B201F19B7000E365D /* 0002Back.png */,
+				C5350E9220201D4900915039 /* 0004.png */,
 				C5F4E08C2011BF70000400AC /* Assets.xcassets */,
 				C5F4E08E2011BF70000400AC /* LaunchScreen.storyboard */,
 				C5F4E0912011BF70000400AC /* Info.plist */,
@@ -143,10 +165,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5350E9320201D4900915039 /* 0004.png in Resources */,
 				C5F4E0902011BF70000400AC /* LaunchScreen.storyboard in Resources */,
 				C5F4E08D2011BF70000400AC /* Assets.xcassets in Resources */,
 				C5E0F7752011E4E400324967 /* 0002.png in Resources */,
+				C5DCF66A201F1948000E365D /* 0001Back.png in Resources */,
 				C5E0F7742011E4E400324967 /* 0001.png in Resources */,
+				C5DCF66C201F19B7000E365D /* 0002Back.png in Resources */,
 				C5F4E08B2011BF70000400AC /* Main.storyboard in Resources */,
 				C5E0F77B2011F0F600324967 /* 0003.png in Resources */,
 			);
@@ -161,8 +186,9 @@
 			files = (
 				C5F4E0882011BF70000400AC /* ViewController.m in Sources */,
 				C5F4E0932011BF70000400AC /* main.m in Sources */,
+				C5350E9020201A9F00915039 /* MTTLettersView.m in Sources */,
 				C5F4E0852011BF70000400AC /* AppDelegate.m in Sources */,
-				C5C1325E201979A400F336C3 /* MTTHalfCoverView.m in Sources */,
+				C5350E9120201A9F00915039 /* MTTHalfCoverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

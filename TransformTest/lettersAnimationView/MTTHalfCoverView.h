@@ -16,7 +16,7 @@ typedef NS_ENUM(NSUInteger, MTTCoverDirection) {
 
 @interface MTTHalfCoverView : UIView
 
-
+- (void)changeSide ;
 - (void)setDirection:(MTTCoverDirection)direction andImage:(NSString*)imageName;
 
 @end
